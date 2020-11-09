@@ -1,5 +1,4 @@
 package BankAccount;
-
 public class CAmt {
     protected int acc_no;
     protected double bal;
@@ -20,7 +19,7 @@ public class CAmt {
         }
         else {
             float test = (float) (amt - bal);
-            throw new InsufficientbalanceException(test);
+            throw new InsufficientbalanceException("Error...!! ");
             }
         }
         public int getAcc_no()

@@ -2,7 +2,7 @@ public class example {
     public static void main(String args[]) {
         int a[] = new int[1];
                 try {
-                    System.out.println("a :" + a[2]);
+                    System.out.println("a :" + a[0]);
                 }
                     catch(ArrayIndexOutOfBoundsException e)
                     {

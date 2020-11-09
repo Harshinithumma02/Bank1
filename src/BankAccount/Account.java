@@ -1,10 +1,8 @@
 package BankAccount;
 abstract class Account {
-    private int acc_no;
     private double bal;
     Account(int a,double b)
     {
-        acc_no = a;
         bal= b;
     }
     abstract void display();
@@ -19,7 +17,5 @@ abstract class deposit extends BankAccount {
         String d;
     }
 }
-
-
 
 
